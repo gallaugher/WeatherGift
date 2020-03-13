@@ -16,6 +16,7 @@
 		3E901CBF240B33C600941FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E901CBD240B33C600941FE0 /* LaunchScreen.storyboard */; };
 		3E901CC7240B33D400941FE0 /* WeatherLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E901CC6240B33D400941FE0 /* WeatherLocation.swift */; };
 		3EA876CE2413D20F00BADA38 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA876CD2413D20F00BADA38 /* LocationDetailViewController.swift */; };
+		3EA8C78A241AB8D700984570 /* WeatherDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA8C789241AB8D700984570 /* WeatherDetail.swift */; };
 		3EC5C7192415C253008745A6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC5C7182415C253008745A6 /* PageViewController.swift */; };
 		EF6414DBE2536D62C40A0A24 /* libPods-WeatherGift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10894F136D2A3CD27AE8D16F /* libPods-WeatherGift.a */; };
 /* End PBXBuildFile section */
@@ -33,6 +34,7 @@
 		3E901CC0240B33C600941FE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E901CC6240B33D400941FE0 /* WeatherLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherLocation.swift; sourceTree = "<group>"; };
 		3EA876CD2413D20F00BADA38 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		3EA8C789241AB8D700984570 /* WeatherDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetail.swift; sourceTree = "<group>"; };
 		3EC5C7182415C253008745A6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		A822B8D00B7EA4209624A3F7 /* Pods-WeatherGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.release.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.release.xcconfig"; sourceTree = "<group>"; };
 		F0D83915BFD7504F7430B989 /* Pods-WeatherGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherGift.debug.xcconfig"; path = "Target Support Files/Pods-WeatherGift/Pods-WeatherGift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				3E901CB2240B33C600941FE0 /* AppDelegate.swift */,
 				3E901CB4240B33C600941FE0 /* SceneDelegate.swift */,
 				3E901CC6240B33D400941FE0 /* WeatherLocation.swift */,
+				3EA8C789241AB8D700984570 /* WeatherDetail.swift */,
 				3EC5C7182415C253008745A6 /* PageViewController.swift */,
 				3EA876CD2413D20F00BADA38 /* LocationDetailViewController.swift */,
 				3E901CB6240B33C600941FE0 /* LocationListViewController.swift */,
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E901CB7240B33C600941FE0 /* LocationListViewController.swift in Sources */,
+				3EA8C78A241AB8D700984570 /* WeatherDetail.swift in Sources */,
 				3EC5C7192415C253008745A6 /* PageViewController.swift in Sources */,
 				3E901CC7240B33D400941FE0 /* WeatherLocation.swift in Sources */,
 				3E569935240ECE24007AA851 /* APIkeys.swift in Sources */,
