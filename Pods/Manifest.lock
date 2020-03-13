@@ -1,0 +1,20 @@
+PODS:
+  - GoogleMaps/Base (3.6.0)
+  - GooglePlaces (3.6.0):
+    - GoogleMaps/Base (= 3.6.0)
+
+DEPENDENCIES:
+  - GooglePlaces
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - GooglePlaces
+
+SPEC CHECKSUMS:
+  GoogleMaps: 82f8fe307193bb4de6ef6bf9e88f1d624b718f9d
+  GooglePlaces: 1b9d29cf3e164903d873600f511f42acdfe85294
+
+PODFILE CHECKSUM: 29ab7b6f3ab55838b6a9c03f412fb89b5110c1f7
+
+COCOAPODS: 1.9.0
