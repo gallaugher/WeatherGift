@@ -17,6 +17,7 @@ class WeatherDetail: WeatherLocation {
     
     struct Currently: Codable {
         var temperature: Double
+        var time: TimeInterval
     }
     
     struct Daily: Codable {
@@ -25,6 +26,7 @@ class WeatherDetail: WeatherLocation {
     }
     
     var timezone = ""
+    var currentTime = 0.0
     var temperature = 0
     var summary = ""
     var dailyIcon = ""
@@ -32,7 +34,7 @@ class WeatherDetail: WeatherLocation {
     func getData(completed: @escaping ()->()) {
         let coordinates = "\(latitude),\(longitude)"
         let urlString = "\(APIurls.darkSkyURL)\(APIkeys.darkSkyKey)/\(coordinates)"
-        // print("🕸 We are accessing the url \(urlString)")
+         print("🕸 We are accessing the url \(urlString)")
         
         // Create a URL
         guard let url = URL(string: urlString) else {
@@ -56,6 +58,7 @@ class WeatherDetail: WeatherLocation {
             do {
                 let response = try JSONDecoder().decode(Response.self, from: data!)
                 self.timezone = response.timezone
+                self.currentTime = response.currently.time
                 self.temperature = Int(response.currently.temperature.rounded())
                 self.summary = response.daily.summary
                 self.dailyIcon = response.daily.icon
