@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E2CF6F12426952800D34174 /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2CF6F02426952800D34174 /* HourlyCollectionViewCell.swift */; };
 		3E3529C724240B3000A60620 /* DailyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3529C624240B3000A60620 /* DailyTableViewCell.swift */; };
 		3E569935240ECE24007AA851 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E569934240ECE24007AA851 /* APIkeys.swift */; };
 		3E901CB3240B33C600941FE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E901CB2240B33C600941FE0 /* AppDelegate.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		10894F136D2A3CD27AE8D16F /* libPods-WeatherGift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeatherGift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E2CF6F02426952800D34174 /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
 		3E3529C624240B3000A60620 /* DailyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewCell.swift; sourceTree = "<group>"; };
 		3E569934240ECE24007AA851 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		3E901CAF240B33C600941FE0 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 				3EA876CD2413D20F00BADA38 /* LocationDetailViewController.swift */,
 				3E901CB6240B33C600941FE0 /* LocationListViewController.swift */,
 				3E3529C624240B3000A60620 /* DailyTableViewCell.swift */,
+				3E2CF6F02426952800D34174 /* HourlyCollectionViewCell.swift */,
 				3E901CB8240B33C600941FE0 /* Main.storyboard */,
 				3E901CBB240B33C600941FE0 /* Assets.xcassets */,
 				3E901CBD240B33C600941FE0 /* LaunchScreen.storyboard */,
@@ -233,6 +236,7 @@
 				3E901CB3240B33C600941FE0 /* AppDelegate.swift in Sources */,
 				3EA876CE2413D20F00BADA38 /* LocationDetailViewController.swift in Sources */,
 				3E901CB5240B33C600941FE0 /* SceneDelegate.swift in Sources */,
+				3E2CF6F12426952800D34174 /* HourlyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
