@@ -109,6 +109,7 @@ class LocationDetailViewController: UIViewController {
         pageViewController.setViewControllers([pageViewController.createLocationDetailViewController(forPage: sender.currentPage)], direction: direction, animated: true, completion: nil)
     }
 }
+
 extension LocationDetailViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return weatherDetail.dailyWeatherData.count
@@ -175,7 +176,6 @@ extension LocationDetailViewController: CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        print("👮‍♀️👮‍♀️ Checking authorization status")
         handleAuthorizationStatus(status: status)
     }
     
